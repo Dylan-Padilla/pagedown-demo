@@ -57,7 +57,7 @@ caption {
   "Free Software" means software that respects users' freedom and community. Roughly, it means that the users have the freedom to run, copy, distribute, study, and imporve the software. Thus, free software is a matter of liberty, not price. To understand the concept, you should watch the series of YouTube shorts that the ASN Graduate Council is making. We hope you enjoy them.
   </p>
   
-```{r echo = FALSE}
+```{r fig1, echo = FALSE, fig.cap="If you write something here, it will automatically show up on the list of figures above."}
 
 knitr::include_graphics("imgs/rev_hyp_bt.jpeg")
 
