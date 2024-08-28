@@ -1,0 +1,69 @@
+---
+title: '<center>Writing a paper with Pagedown in R</center><br><center>![](imgs/ASN_logo.png)</center>'
+output:
+  pagedown::html_paged:
+    toc: true
+    self_contained: false
+    css:
+    - default-fonts
+    - default
+    - custom-pages.css
+toc-title: "Table of Contents"
+lof: true
+bibliography: packages.bib
+link-citations: no
+csl: apa-numeric-superscript-brackets.csl
+---
+
+```{r echo = FALSE, include = FALSE}
+
+library(icons)
+library(emo)
+library(rmarkdown)
+library(knitr)
+library(car)
+library(lattice)
+library(kableExtra)
+library(xaringan)
+
+```
+
+<style>
+
+p.caption {
+  font-size: 0.9em;
+  text-align: justify;
+  }
+  
+caption {
+  font-size: 0.9em
+  text-align: justify;
+  }
+
+</style>
+
+# Background
+
+<p align='justify'>
+  This is a live demo to demonstrate how to write a paper or thesis with *pagedown* in R. It is a part of the series of YouTube Shorts that the ASN Graduate Council is making.
+  </p>
+  
+
+# Chapter: Free Software should be the way to go
+
+## Introduction
+
+<p align='justify'>
+  "Free Software" means software that respects users' freedom and community. Roughly, it means that the users have the freedom to run, copy, distribute, study, and imporve the software. Thus, free software is a matter of liberty, not price. To understand the concept, you should watch the series of YouTube shorts that the ASN Graduate Council is making. We hope you enjoy them.
+  </p>
+  
+```{r echo = FALSE}
+
+knitr::include_graphics("imgs/rev_hyp_bt.jpeg")
+
+```
+
+
+# References
+
+<div id='refs'></div>
